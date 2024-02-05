@@ -145,8 +145,8 @@ function App() {
   }, []);
 
   return (
-    <section className=" bg-gray-800 w-screen h-screen  flex justify-center items-center ">
-      <div className="p-20 bg-gray-100 rounded shadow-lg ">
+    <section className=" bg-gray-800 xl:w-screen   flex justify-center items-center p-6">
+      <div className="md:p-5 p-2 bg-gray-100 rounded shadow-lg ">
         <form className="flex w-full items-center  border border-sky-400 rounded overflow-hidden">
           <input
             type="text"
